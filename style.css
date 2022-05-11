@@ -10,6 +10,10 @@ body {
   line-height: 1.5;
 }
 
+h1, h2, p {
+  margin: 0;
+}
+
 p {
   font-size: 1rem;
 }
@@ -58,18 +62,18 @@ main {
   margin-bottom: 36px;
 }
 
-.intro-chunk > p {
+h2, p {
   margin-bottom: 24px;
 }
 
-.intro-chunk > p:last-child {
+p:last-child {
   margin-bottom: 0;
 }
 
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
-  padding: 16px 24px;
+  padding: 16px 32px;
   margin-top: -16px;
   margin-left: -32px;
   border-bottom: 6px solid hsl(45deg, 100%, 40%);
